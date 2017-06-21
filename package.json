@@ -1,0 +1,28 @@
+{
+  "name": "promern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezechidc/promern.git"
+  },
+  "keywords": [
+    "express",
+    "React",
+    "Nodejs",
+    "Mongodb",
+    "MERN",
+    "stack"
+  ],
+  "author": "Dennis Ezechi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezechidc/promern/issues"
+  },
+  "homepage": "https://github.com/ezechidc/promern#readme"
+}
