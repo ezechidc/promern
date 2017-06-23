@@ -4,6 +4,7 @@ npm-debug.log*
 
 # project dependencies
 node_modules
+dist
 
 # temporary files
 *.tmp
