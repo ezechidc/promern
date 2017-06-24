@@ -4,11 +4,11 @@ const webpack = require('webpack')
 
 module.exports = {
     entry: {
-        app: './static/src/App.jsx',
+        app: ['./static/src/App.jsx'],
         vendor: ['react','react-dom','whatwg-fetch'],
     },
     output: {
-        path: path.resolve(__dirname,  "./static/dist"),
+        path: __dirname+  "./static/dist",
         filename: 'app.bundle.js'
     },
     plugins: [
@@ -35,5 +35,6 @@ module.exports = {
                 target: 'http://localhost:3000'
             }
         }
-    }
+    },
+    devtool: 'source-map'
 };

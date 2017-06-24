@@ -8,7 +8,7 @@ import React from 'react';
     }
     handleSubmit(e) {
         e.preventDefault();
-        var form = document.forms.issueAdd;
+        const form = document.forms.issueAdd;
         this.props.createIssue({
             owner: form.owner.value,
             title: form.title.value,
@@ -31,3 +31,7 @@ import React from 'react';
         );
     }
 }
+
+IssueAdd.protoType = {
+    createIssue: React.PropTypes.func.isRequired,
+};
